@@ -1,0 +1,7 @@
+Name: simple
+---
+SilverStripe\View\SSViewer:
+  themes:
+    - '$mysite'
+    - 'simple'
+    - '$default'
