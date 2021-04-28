@@ -6,6 +6,7 @@
     <title>Membres</title>
 </head>
 <body>
+   
     
     <p><img src="mysite/images/logo.jpg" alt="logo de let's co"/></p>
     <h1>Espace Membres</h1>
@@ -13,21 +14,12 @@
      <p class="info">Vous trouverez ici toutes les informations relatives au membres de let's co.
       <img src="mysite/images/membres.jpg" alt="image de membres"/> 
      </p>
-    
-<ul>
-  <li>Maxime</li>
-  <li>Sebastien</li>
-  <li>Olivier</li>
-  <li>Karine</li>
-</ul>
 
-<%-- Proposition Johann --%>
 <ul>
-<% loop Persons %>
+<% loop $Persons %>
     <li><% include VignettePerson %></li>
 <% end_loop %>
 </ul>
-<%-- /Proposition Johann --%>
     
 <p>Si vous n'êtes pas encore membre et souhaitez le devenir, rendez-vous dans la rubrique <a href="https://www.letsco.co/Security/login" title="lien vers le site let's co" target="_blank">connexion</a> puis cliquez sur"inscrivez-vous maintenant" 
     </p>

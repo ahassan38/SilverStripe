@@ -16,5 +16,3 @@ $databaseConfig = array(
 // Set the site locale
 i18n::set_locale('fr_FR');
 
-SSViewer::set_theme("simple");
-HtmlEditorConfig::get('cms')->setOption('theme_advanced_styles', 'highlight=highlight;no-border=no-border,break=break');
