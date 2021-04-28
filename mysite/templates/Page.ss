@@ -12,8 +12,9 @@
     <h1>Espace Membres</h1>
 
      <p class="info">Vous trouverez ici toutes les informations relatives au membres de let's co.
-      <img src="mysite/images/membres.jpg" alt="image de membres"/> 
+      <img src="mysite/images/membres.jpg" class="membres"  alt="image de membres"/> 
      </p>
+
 
 <ul>
 <% loop $Persons %>

@@ -1,13 +1,36 @@
 body
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 
+p
+{
+    text-align: center;
+    font-weight: bold;
+}
 
-
-
+a:hover
+{
+    color: orange;
+}
 h1
 {
     color: orange;
+    text-align: center;
+
+}
+
+.membres
+{
+    float: right;
+    width: 400px;
+    weight: 400px;
+}
+
+ul
+{
+text-align: start;
+
 }
