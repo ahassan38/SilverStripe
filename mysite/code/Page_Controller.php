@@ -26,4 +26,12 @@ class Page_Controller extends ContentController
         // You can include any CSS or JS required by your project here.
         // See: http://doc.silverstripe.org/framework/en/reference/requirements
     }
+    
+    /**
+     * Proposition Johann
+     */
+    public function Persons()
+    {
+        return Person::get();
+    }
 }
