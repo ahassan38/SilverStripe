@@ -1,6 +1,8 @@
 body
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("background2.jpg");
+    background-attachment: fixed;
     
 }
 
@@ -19,9 +21,22 @@ h1
 {
     color: orange;
     text-align: center;
-
+    border: 3px outset black;
+    border-radius: 20px;
+    box-shadow: 7px 6px 5px black ;
+    text-shadow: 2px 2px 4px black;
 }
 
+h2
+{
+    color: greenyellow;
+    font-size: 22px;
+    border: 3px outset orange;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 7px 6px 5px black ;
+    text-shadow: 2px 2px 4px black;
+}
 .membres
 {
     float: right;
@@ -32,5 +47,33 @@ h1
 ul
 {
 text-align: start;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-content: center ;
+}
 
+.down
+{
+    color: greenyellow;
+    border: 3px outset orange ;
+    border-radius: 20px ;
+    box-shadow: 7px 6px 5px black;
+    text-shadow: 2px 2px 4px black
+}
+
+.des
+{
+    text-align: start;
+    border: 3px outset orange;
+    display: inline-block;
+    color: greenyellow;
+    border-radius: 10px;
+    box-shadow: 7px 6px 5px black ;
+    text-shadow: 2px 2px 4px black;
+} 
+.img
+{
+    display: flex;
+    justify-content: center;
 }
